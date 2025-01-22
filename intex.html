@@ -1,0 +1,120 @@
+
+```html
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bence Böyle - Hoş Geldiniz!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .categories {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .category-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }.category-item {
+            background-color: #ffffff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .category-item:hover {
+            background-color: #3498db;
+            color: white;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Bence Böyle</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Kategoriler</a></li>
+                <li><a href="#">Mesajlar</a></li>
+                <li><a href="#">Yapay Zeka Sohbeti</a></li>
+                <li><a href="#">Üye Girişi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="categories">
+        <h2>Kategoriler</h2>
+        <div class="category-list">
+            <div class="category-item">Genel Konular</div>
+            <div class="category-item">Eğlence & Hobiler</div><div class="category-item">Teknoloji & Yazılım</div>
+            <div class="category-item">Güncel Olaylar</div>
+            <div class="category-item">Sağlık & Spor</div>
+            <div class="category-item">Yapay Zeka & Teknoloji</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ForumSite - Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script>
+        // JavaScript kısmı (Boş şimdilik)
+    </script>
+</body>
+</html>
+```
